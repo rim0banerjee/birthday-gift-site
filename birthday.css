@@ -1,0 +1,98 @@
+body{ 
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffff;
+}
+
+/*//group css selector*/
+h1, h2, h3, h4, p{  
+     text-shadow: 0px 0px 1px black;
+}
+
+#image{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+
+/*display block to inline using flex*/
+#header{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+#bday-age{  
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    
+}
+
+#bday-date{
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-bottom: 10px;
+}
+
+.gift-hint{
+    margin-top: 0px;
+}
+
+/*text-align can only center the inline elements within it's container and as div's are display blocks so, 'display:inline;' won't work. Whereas, margin auto works on elements that have a set width and display blocks.*/
+
+.gift-img{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("gift-cover.jpg");
+    height: 400px;
+    background-size: cover;
+    margin: 0px auto;
+}
+
+#gift-title-happy:hover{
+    background-image: url("happy.gif");
+}
+
+#gift-title-hot:hover{
+    background-image: url("hot.gif");
+}
+
+#gift-title-genius:hover{
+    background-image: url("genius.gif");
+}
+
+#gift-title-badass:hover{
+    background-image: url("badass.gif");
+}
+
+#gift-title-cheers:hover{
+    background-image: url("cheers.gif");
+}
+
+#gift-title-cheers{
+    height: 270px;
+}
+
+#footer{
+    margin: 40px auto 20px ;
+    font-style: italic;
+}
+
+a{
+    color: ghostwhite;
+    text-shadow: 0px 0px 1px black;
+}
